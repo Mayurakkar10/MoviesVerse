@@ -13,7 +13,7 @@ export default function Navbar({ sendToParent }) {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg "
+        className="navbar navbar-expand-lg navbar-dark"
         style={{
           height: "5rem",
           backgroundColor: "black",
@@ -41,7 +41,7 @@ export default function Navbar({ sendToParent }) {
           <div
             className="collapse navbar-collapse "
             id="navbarSupportedContent"
-            style={{ backgroundColor: "black", zIndex: "1", height: "20rem" }}
+            style={{ backgroundColor: "black", zIndex: "1" }}
           >
             <ul
               className="navbar-nav me-auto mb-2 mb-lg-0 "
