@@ -1,0 +1,13 @@
+
+*{
+  background-color: #272B34;
+}
+
+.navbar a:hover{
+   border-bottom: 2px solid red;
+}
+
+/* .card:hover{
+   transform: scale(1.1);
+   border:2px solid white;
+} */
